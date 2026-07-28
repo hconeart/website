@@ -25,7 +25,7 @@ section {
     padding: 50px 20px;
     text-align: center;
 }
-h2 {
+ {h2
     color: darkslategrey;
     font-size: 32px;
 }
@@ -49,12 +49,10 @@ footer {
     text-align: center;
     padding: 20px;
 }
-section {
+section 
     max-width: 1200px;
     margin: 30px auto;
     padding: 60px 20px;
-}
-
 button {
     transition: 0.3s ease;
 }
@@ -546,4 +544,73 @@ footer p {
 #products .product-card {
     text-align: center;
     margin: 20px auto;
+}
+/* Google Profile Section */
+#google-profile{
+    text-align:center;
+    padding:60px 20px;
+}
+
+#google-profile h2{
+    font-size:36px;
+    color:#0F3D3E;
+    margin-bottom:15px;
+}
+
+#google-profile p{
+    max-width:700px;
+    margin:0 auto 30px;
+    font-size:18px;
+    line-height:1.7;
+    color:#555;
+}
+
+#google-profile button{
+    background: darkslategray;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    margin:10px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#google-profile button:hover{
+    background: #d4af37;
+}
+#booking {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#booking p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+#booking button {
+    background: darkslategray;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#booking button {
+    background: darkslategray;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#booking button:hover {
+    background: #D4AF37;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(212, 175, 55, 0.35);
 }
